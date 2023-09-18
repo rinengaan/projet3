@@ -228,6 +228,7 @@ button {
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
+    margin-bottom: 30px;
 }
 
 /****** Hebergements ***********/
@@ -344,6 +345,67 @@ button {
 
 /*activités*/
 
+.activites{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px;
+    gap: 30px;
+    box-sizing: border-box;
+}
+
+.activites-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    gap: 30px;
+}
+
+.activites-card{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 439px;
+    background-color: white;
+    border-radius: 20px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    gap: 10px;
+    
+}
+
+.activites-card img {
+    width: 297px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0 ;
+}
+
+.activites-card p {
+    font-size: 16px;
+    font-weight:bold;
+    padding: 20px 10px;
+}
+
+/*footer*/
+.footer-container {
+    display: flex;
+    background-color: rgba(242, 242, 242, 1);
+}
+
+.column-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 33%;
+    gap: 15px;
+
+}
+
+.column-container p {
+    font-size: 16px;
+    font-weight: 400;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
