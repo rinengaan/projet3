@@ -406,12 +406,12 @@ h1 {
 }
 
 /*footer*/
-.footer-container {
+footer {
     display: flex;
     background-color: rgba(242, 242, 242, 1);
 }
 
-.column-container {
+.footer-column-container {
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -419,7 +419,7 @@ h1 {
     gap: 15px;
 }
 
-.column-container p {
+.footer-column-container p {
     font-size: 16px;
     font-weight: 400;
 }
@@ -572,12 +572,12 @@ h1 {
         width: 100%;
     }
 
-    .footer-container {
+    footer {
         flex-direction: column;
         padding: 30px;
         gap: 50px;
     }
-    .column-container p {
+    .footer-column-container p {
         font-size: 16px;
         font-weight: 400;
     }
