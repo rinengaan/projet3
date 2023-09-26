@@ -93,7 +93,6 @@ header {
     display: flex;
     justify-content: flex-start;
     border-radius: 15px;
-
     height: 49px;
     margin-bottom: 40px;
 }
@@ -182,21 +181,30 @@ h1 {
 
 .filtres {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     gap: 15px;
 }
 
 .filtre {
     display: flex;
+    flex: 1;
+    width: fit-content;
+    white-space: nowrap;
     align-items: center;
     justify-content: center;
     height: 35px;
     gap: 10px;
-    width: max-content;
     border: 2px solid #d9d9d9;
     border-radius: 25px;
     padding: 4px 19px 4px 19px;
+}
+
+.dual-filtre {
+display: flex;
+gap: 15px;
+}
+
+.filtre p {
+    font-size: 16px;
 }
 
 .filtre i {
@@ -516,7 +524,11 @@ footer {
     }
 
     .recherche {
+        justify-content: center;
         padding: 0 20px;
+    }
+    .recherche form {
+        width: 100%;
     }
 
     .container-button button {
@@ -528,7 +540,24 @@ footer {
     }
 
     .container-filtre {
-        padding: 0 20px;
+        padding: 0 0 0 20px;
+        max-width: 335px;
+        width: 100%;
+        
+    }
+
+    .filtres{
+    flex-direction: column;
+
+
+    }
+
+    .filtre{
+        width: 25%;
+    }
+
+    .filtre p {
+        font-size: 14px;
     }
 
     .info {
