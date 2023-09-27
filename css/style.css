@@ -113,6 +113,7 @@ header {
     height: 49px;
     border: 1px solid #f2f2f2;
     border-radius: 15px 0 0 15px;
+    flex-shrink: 0;
 }
 
 .headline {
@@ -527,6 +528,7 @@ footer {
         justify-content: center;
         padding: 0 20px;
     }
+
     .recherche form {
         width: 100%;
     }
@@ -540,15 +542,13 @@ footer {
     }
 
     .container-filtre {
-        padding: 0 0 0 20px;
-        max-width: 335px;
-        width: 100%;
+        padding: 0 20px;
         
     }
 
     .filtres{
     flex-direction: column;
-
+        width: 100%;
 
     }
 
@@ -608,5 +608,10 @@ footer {
     .footer-column-container p {
         font-size: 16px;
         font-weight: 400;
+    }
+}
+@media (max-width: 365px) {
+    .texte {
+        font-size: 14px;
     }
 }
