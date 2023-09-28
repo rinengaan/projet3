@@ -539,6 +539,9 @@ footer {
 
     .container-button i {
         display: grid;
+        border-radius: 15px;
+        position: relative;
+        right: 10px;
     }
 
     .container-filtre {
@@ -547,7 +550,7 @@ footer {
     }
 
     .filtres{
-    flex-direction: column;
+        flex-direction: column;
         width: 100%;
 
     }
